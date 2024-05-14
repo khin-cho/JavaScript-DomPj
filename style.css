@@ -1,0 +1,105 @@
+/* Basic styling for demonstration purposes */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  background: url("flower1.jpg ") no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #ffb524;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h2 {
+  color: #ffb524;
+  margin: 10px;
+}
+h3 {
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 400px;
+  background-color: #45595b;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 #5f6b6c;
+  border-radius: 10px;
+  margin: 10px;
+}
+.header {
+  width: 600px;
+  height: 300px;
+}
+
+.footer {
+  float: right;
+  margin-top: 100px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+}
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+.delete-btn {
+  background-color: #ffb524;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: rgb(20, 201, 13);
+}
+/* for todo list end */
+
+/* for password start 
+.container3 {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 #5f6b6c;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+for password  end */
+
+/* for button start*/
+button {
+  padding: 10px 20px;
+  background-color: rgb(20, 201, 13);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+button:hover {
+  background-color: #ffb524;
+}
+/* for button end */
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ffb524;
+  border-radius: 5px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
